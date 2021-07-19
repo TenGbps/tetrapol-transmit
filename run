@@ -1,0 +1,2 @@
+./forward_voice >VOICE.txt
+(cat U_START_SPEECH.txt U_START_SPEECH.txt U_START_SPEECH.txt U_START_SPEECH.txt U_START_SPEECH.txt U_START_SPEECH.txt U_START_SPEECH.txt U_START_SPEECH.txt TP_ADDRESS.txt VOICE.txt U_END_SPEECH_1.txt U_END_SPEECH_2.txt U_END_SPEECH_3.txt TAIL1.txt) |tr -d \\n |tr 01 \\0\\1 >transmit.bits
